@@ -14,8 +14,8 @@ myHashMap:<br/>
 &nbsp;&nbsp;myString1:&nbsp;qwerty3<br/>
 &nbsp;&nbsp;myString2:&nbsp;qwerty4<br/>
 ---MyConfigurationBean.java<br/>
-private List<String> myList = new ArrayList<String>();<br/>
-private HashMap<String, String> myHashMap;<br/>
+private List&lt;String&gt; myList = new ArrayList&lt;String&gt;();<br/>
+private HashMap&lt;String, String&gt; myHashMap;<br/>
 +getter and setter<br/>
 ---The class who displays the value of the application.yaml configuration<br/>
 @Autowired<br/>
