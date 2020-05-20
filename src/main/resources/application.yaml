@@ -1,0 +1,7 @@
+myList: 
+  - qwerty1
+  - qwerty2
+
+myHashMap:
+  myString1: qwerty3
+  myString2: qwerty4
